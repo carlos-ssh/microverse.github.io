@@ -31,6 +31,12 @@ body{
   padding-bottom: 50px;
   color: #ffffff;
 }
+
+#dropdown,
+#favorite {
+  border-radius: 5px;
+}
+
 .form-group{
   font-family: sans-serif;
   display:grid;
@@ -41,9 +47,14 @@ body{
 
 input{
   margin: 5px;
-  padding: 10px;
   border-radius: 6px;
 }
+
+.form-control {
+  padding: 5px;
+  min-height: 25px;
+}
+
 #sugg{
   border-radius: 6px;
 }
